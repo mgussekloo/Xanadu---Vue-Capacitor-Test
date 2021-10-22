@@ -1,0 +1,38 @@
+{
+  "name": "capacitor-app",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "main": "index.js",
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000=2000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "@capacitor/camera": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "^3.2.5",
+    "@capacitor/splash-screen": "latest",
+    "animejs": "^3.2.1",
+    "laravel-mix": "^6.0.34",
+    "vue": "^3.2.20"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.3",
+    "sass-loader": "^12.1.0",
+    "vue-loader": "^16.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

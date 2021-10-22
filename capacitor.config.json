@@ -1,0 +1,11 @@
+{
+  "appId": "com.xanadu.app",
+  "appName": "Xanadu",
+  "bundledWebRuntime": true,
+  "webDir": "public",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
