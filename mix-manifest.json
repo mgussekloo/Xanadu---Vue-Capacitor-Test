@@ -1,5 +1,8 @@
 {
     "/public/static/main.js": "/public/static/main.js",
     "/public/static/main.css": "/public/static/main.css",
-    "/public/static/tarot.jpg": "/public/static/tarot.jpg"
+    "/public/static/.DS_Store": "/public/static/.DS_Store",
+    "/public/static/blathers.webp": "/public/static/blathers.webp",
+    "/public/static/brewster.webp": "/public/static/brewster.webp",
+    "/public/static/nook.webp": "/public/static/nook.webp"
 }
