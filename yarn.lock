@@ -1301,6 +1301,11 @@
   resolved "https://registry.yarnpkg.com/@pixi/mixin-get-child-by-name/-/mixin-get-child-by-name-6.1.3.tgz#103dd6c4e94836512a0ce60f5af8e9b23e3f9b0c"
   integrity sha512-HHrnA1MtsMSyW0lOnBlklHp7j3JGYHIyick4b8F8p8eKqOFiAVdLzf4tmX/fKF4zs6i7DuYKE8G9Z7vpAhyrFg==
 
+"@pixi/mixin-get-child-by-name@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@pixi/mixin-get-child-by-name/-/mixin-get-child-by-name-6.2.0.tgz#a21aba8b840704e7c3febeaf11605d4ab094ecab"
+  integrity sha512-VCokQVg7Xh9QCUou553yfbu0FTi++E++7ByCUPqzTU1hR2VFQRmI8aIkrHNER+PolqnnrrCKFXR7bZW0RdHD+A==
+
 "@pixi/mixin-get-global-position@6.1.3":
   version "6.1.3"
   resolved "https://registry.yarnpkg.com/@pixi/mixin-get-global-position/-/mixin-get-global-position-6.1.3.tgz#a885291ee111933eb8e7f1e0064ca4ec13110651"
@@ -1310,6 +1315,11 @@
   version "6.1.3"
   resolved "https://registry.yarnpkg.com/@pixi/particle-container/-/particle-container-6.1.3.tgz#4c2d35f7da4ad000062ff5cc9fda09e32b400632"
   integrity sha512-pZqRRL5Yx2Yy30cdjsNEXRpTfl1WEf640ZLVHX2+fcKcWftPJaIXQZR+0aLvijyWF3VA4O/r/8IxhYgiMkqAUQ==
+
+"@pixi/particle-emitter@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@pixi/particle-emitter/-/particle-emitter-5.0.2.tgz#29e77d2c63c3cb24191edfb7903941606f439681"
+  integrity sha512-PNG2AveL2meWLY53Fy83C2s0ybF1/xyOvx+L68wgdVw3r4ZkObuKeWSfsI7dO4EUUuayKd+5vU/vfjU+2jVbng==
 
 "@pixi/polyfill@6.1.3":
   version "6.1.3"
@@ -3025,6 +3035,11 @@ eventemitter3@^4.0.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
+events@^1.0.2:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
+  integrity sha1-nr23Y1rQmccNzEwqH1AEKI6L2SQ=
+
 events@^3.0.0, events@^3.2.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
@@ -4209,6 +4224,15 @@ mkdirp@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
+mouse-event-offset@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/mouse-event-offset/-/mouse-event-offset-3.0.2.tgz#dfd86a6e248c6ba8cad53b905d5037a2063e9984"
+  integrity sha1-39hqbiSMa6jK1TuQXVA3ogY+mYQ=
+
+mouse-event-offset@mattdesl/mouse-event-offset:
+  version "3.0.2"
+  resolved "https://codeload.github.com/mattdesl/mouse-event-offset/tar.gz/82805f285f8483f2373d2bf20f62f9eb8d79f74d"
 
 ms@2.0.0:
   version "2.0.0"
@@ -5833,6 +5857,19 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
+
+touch-position@mattdesl/touch-position:
+  version "2.0.0"
+  resolved "https://codeload.github.com/mattdesl/touch-position/tar.gz/d6a48fbd01a925fcd2e212bead63143d3cc63549"
+  dependencies:
+    events "^1.0.2"
+    mouse-event-offset "^3.0.2"
+
+touches@Jam3/touches:
+  version "1.2.2"
+  resolved "https://codeload.github.com/Jam3/touches/tar.gz/c0efd9c43c26c31d54bf8cdb9ee7ce9b22c95eae"
+  dependencies:
+    events "^1.0.2"
 
 tree-kill@^1.2.2:
   version "1.2.2"
