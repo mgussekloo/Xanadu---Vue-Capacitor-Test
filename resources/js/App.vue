@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<div ref="canvas" @click="nextSlide" @touchstart="nextSlide()"></div>
+		<dialog-boxes></dialog-boxes>
 	</div>
 </template>
 
@@ -11,6 +12,8 @@
 
 	import { PixelateFilter } from 'pixi-filters';
 	import * as particles from '@pixi/particle-emitter';
+
+	import dialogBoxes from './dialogboxes.vue';
 
 	let offset = require('mouse-event-offset');
 
@@ -187,6 +190,10 @@
 		beforeUnmount() {
 		    this.$refs.canvas.removeEventListener('mousedown', this.clickCanvas, false);
 		    this.$refs.canvas.removeEventListener('touchstart', this.clickCanvas, false);
+		},
+		components: {
+			dialogBoxes
 		}
+
 	}
 </script>
